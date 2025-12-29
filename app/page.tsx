@@ -419,7 +419,7 @@ export default function Home() {
 
 
         {/* Slide Caption */}
-        <motion.div
+        {/* <motion.div
           key={`caption-${currentSlide}`}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -429,7 +429,7 @@ export default function Home() {
         >
           <div>{heroSlides[currentSlide].caption}</div>
           <div className="text-sm opacity-90 mt-1">{heroSlides[currentSlide].subtext}</div>
-        </motion.div>
+        </motion.div> */}
         
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
