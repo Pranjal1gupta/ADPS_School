@@ -454,7 +454,7 @@ export default function Home() {
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 shadow-xl font-semibold px-8 h-12 text-lg">
                   Explore Programs <ArrowRight className="ml-2 h-5 w-5 inline" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20 backdrop-blur-sm font-semibold px-8 h-12 text-lg">
+                <Button size="lg" className="bg-white/30 border-2 border-white text-white hover:bg-white/50 backdrop-blur-sm font-semibold px-8 h-12 text-lg transition-all">
                   Schedule Visit
                 </Button>
               </div>
