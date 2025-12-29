@@ -378,7 +378,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section with Image Slider Background */}
-      <section className="relative overflow-hidden  py-24 md:py-32">
+      <section className="relative overflow-hidden py-32 sm:py-40 md:py-32">
         {/* Image Slider Background */}
         <div className="absolute inset-0 bg-gray-900">
           <AnimatePresence mode="wait">
@@ -425,7 +425,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.6 }}
-          className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-center text-white text-lg font-semibold bg-black/50 backdrop-blur-sm px-6 py-3 rounded-xl max-w-md z-20"
+          className="hidden md:block absolute bottom-32 lg:bottom-40 left-1/2 transform -translate-x-1/2 text-center text-white text-lg font-semibold bg-black/50 backdrop-blur-sm px-6 py-3 rounded-xl max-w-md z-20"
         >
           <div>{heroSlides[currentSlide].caption}</div>
           <div className="text-sm opacity-90 mt-1">{heroSlides[currentSlide].subtext}</div>
